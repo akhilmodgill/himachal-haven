@@ -1,0 +1,86 @@
+
+<!-- saved from url=(2560)https://static.tacdn.com/static/page_moniker/google_attractions-v22295838606a.html#pixelType=PAGEVIEW&curLocId=3171239&geoId=1214902&tadomain=tripadvisor.in&reqUnique=4ca96d34966777b972131ba1d72fce0b15aa6c20&userUnique=ae7d33056538b335a0052f2a3f0e461da263c766&locale=en_IN&countryID=293860&seqId=8&regionName=&cityName=Sangla&countryName=India&destinationName=Rakcham&locationType=Attraction&stDest=Sangla%2CIndia&geoName=Sangla&geoParentId=3780960&geoParentName=Kinnaur%20District&geoMostPop=1759424&loc1=1759424&productIds=[%22%22,%22d1759424enIN%22,%221214902enIN%22]&productIdsShort=,d1759424enIN,1214902enIN&device=Desktop&fbDevice=1&userGeo=297596&siteType=d&trueServlet=Attraction_Review&fbTrueServlet=AE&fbRetargetingType=2&servlet=Attraction_Review&geoFeedBucket=all&serverName=www.tripadvisor.in&puid=W1sFbAokHo8AAkbFXuMAAACl&isMobileDevice=n&rtPath=www.tamgrt.com/RT&random=1543273055&taSplit=1&mcid=10568&fbChannel=2&criteoDedup=0&tasource=SEO&geo=1214902&isClickoutYN=no&isLoggedIn=N&securelyLoggedIn=N&stuid=NY1QkB0y0N4x7waw_3_CG-dpox6FgCRUTEiJVQr2Y_DSLAKD8PnCT1KrKRySUYuw&countryAlpha2=IN&criteoPartnerId=10514&criteoAttractionPartnerId=30195&criteoHotelAcct=%5Ban%3Dweb-hotels-tripadvisor.com%26cn%3Din%26ln%3Den%2Can%3Dweb-hotels-0-tripadvisor.com%26cn%3Din%26ln%3Den%2Can%3Dweb-hotels-1-tripadvisor.com%26cn%3Din%26ln%3Den%2Can%3Dweb-hotels-2-tripadvisor.com%26cn%3Din%26ln%3Den%5D&flight_originid=&flight_destid=&flight_startdate=2018-08-10&flight_enddate=2018-08-17&dynx_itemid=null_null_20180810_20180817&attractionShoppingCartTotalPriceUSD=0.00&isAttractionListingPages=true&facebookuvm_v2UlbScore=0.2996562838713889&facebookuvm_v2UlbBucket=15&fbUlbMultiplier=0.14436136616365525&facebookUlbScore=0.23492948984439999&facebookUlbBucket=100&googleExperimentSegment=test&googleUlbScore=0.133639341&googleUlbBucket=2&googleuvm_v2UlbBucket=3&googleuvm_v2UlbScore=0.129225896&UVMBESTSCORE=0.06&UVMSCOPE=UVM_V2&UVMSAVEABLE=0&googleuvm_v2.1UlbBucket=1&googleuvm_v2.1UlbScore=0.073215758167836&googleuvm_v2.1UlbBucketParamName=uvm_display_desktop_bucket&googleuvm_complexUlbBucket=1&googleuvm_complexUlbScore=0.0060953497886657715&criteoUlbScore=0.08884664678945599&criteoUlbBucket=1&criteoUlbScoreCurrent=0.073215758167836&criteoUlbBucketCurrent=1&DBISCORE=0.02868107649933443&DBIFLAG=false&mofSlice=95&mofLastUpdated=20180722&smarterTravelPixelID=gqLWKHSnTxes4YmmtgWkqA&smarterTravelPixelDomain=p.smartertravel.com&isSTConversion=false&googleCRMId=70ce85b3a7bcb922eb63d64007e71603023799e7&NanigansTestSegment=0&pixelName=google_pixel_attractions -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+</head>
+<body>
+<script type="text/javascript">
+  var query_string = {};
+  var query = window.location.hash.substring(1);
+  var vars = query.split("&");
+  for (var i = 0; i < vars.length; i++) {
+    var pair = vars[i].split("=");
+    // If first entry with this name
+    if (typeof query_string[pair[0]] === "undefined") {
+      query_string[pair[0]] = pair[1];
+      // If second entry with this name
+    } else if (typeof query_string[pair[0]] === "string") {
+      var arr = [ query_string[pair[0]], pair[1] ];
+      query_string[pair[0]] = arr;
+      // If third or later entry with this name
+    } else {
+      query_string[pair[0]].push(pair[1]);
+    }
+  }
+
+  var google_conversion_language = "en";
+  var google_conversion_format = "3";
+  var google_conversion_color = "666666";
+  var google_conversion_value = 0;
+  var device = query_string["device"];
+  var isMobile = device !== "Desktop" && device !== "Tablet";
+  var google_dynx_itemid = [];
+  var isAttractionProdDetailPages = query_string["isAttractionProdDetailPages"] == "true";
+  var isAttractionListingPages = query_string["isAttractionListingPages"] == "true";
+  var productCode = query_string["attractionProductCode"];
+  var productCount = query_string["attractionActualProdCount"] || query_string["attractionRelatedProdCount"];
+  var servlet = query_string["servlet"];
+  var attractionProductCodes = query_string["attractionProductCodes"];
+
+  if (isAttractionProdDetailPages && productCode) {
+    google_dynx_itemid.push(productCode);
+  }
+  else if (isAttractionListingPages && productCount) {
+    for (var i = 1; i <= productCount; i++) {
+      var product = query_string["attraction" + i];
+      if (product) {
+        google_dynx_itemid.push(product);
+      }
+    }
+  }
+  else if (servlet === "ShoppingCart" && attractionProductCodes) {
+    google_dynx_itemid = attractionProductCodes.split(",");
+  }
+  else {
+    google_dynx_itemid.push("");
+  }
+  var param_servlet = (query_string["pixelType"] === "CLICKOUT" ?  ((isMobile ? "Mobile" : "") + "MetaConversion") : query_string["servlet"]);
+  var param_mobile = isMobile ? "y" : "n";
+  var google_tag_params = {
+    POS: query_string["locale"],
+    destcity: query_string["geoName"],
+    GeoId: query_string["geoId"],
+    PropId: query_string["propId"] || query_string["geoMostPop"] || query_string["loc1"],
+    mobile: param_mobile,
+    servlet: param_servlet,
+    travel_destid: query_string["geoId"],
+    dynx_itemid: google_dynx_itemid,
+    actualProductCount: query_string["attractionActualProdCount"] || 0
+  };
+
+  /* <![CDATA[ */
+  var google_conversion_id = 871935657;
+  var google_custom_params = window.google_tag_params;
+  var google_user_id = query_string["googleCRMId"];
+  var google_remarketing_only = true;
+  /* ]]> */
+</script>
+<script type="text/javascript" src="./f.txt">
+</script><script src="./f(1).txt"></script>
+<noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/871935657/?guid=ON&amp;script=0"/>
+    </div>
+</noscript>
+
+</body></html>

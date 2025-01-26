@@ -1,0 +1,21 @@
+.about4
+{
+	height:370px;
+}
+.about5
+{
+width:49%;
+float:left;
+padding-top:2.5%;
+}
+.about6
+{
+font:size=30%;
+padding-left:3%;
+padding-top:0.3%;
+color:white;
+background:-webkit-linear-gradient( top left,skyblue,blue,green);
+height:70px;
+margin:20px;
+margin-bottom:40px;
+}

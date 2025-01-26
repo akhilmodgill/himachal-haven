@@ -1,0 +1,114 @@
+.rn
+{
+height:1200px;
+}
+.r1
+{
+padding-left:3%;
+padding-top:0.3%;
+color:white;
+background:-webkit-linear-gradient( top left,skyblue,blue,green);
+height:70px;
+margin-left:5px;
+margin-right:5px;
+margin-top:10px;
+}
+.rm2
+{
+height:900px;
+width:100%;
+}
+.reg1
+{
+width:500px;
+float:left;
+padding-top:120px;
+}
+
+.reg2
+{
+	margin-left:23%;
+	margin-right:25%;
+	margin-top:8%;
+	padding-left:200px;
+}
+.reg3
+		{
+			padding:8px 120px;
+			font-size:15px;
+			color:red;
+			border-radius:5px;
+			text-align:left;
+			box-shadow:0 8px 16px 0 rgba(0,0,0,0.30),0 6px 20px 0 rgba(0,0,0,0.50);
+			margin-top:20px;
+		}
+		
+		.reg4
+		{
+			padding:8px 120px;
+			/*border:1px solid black;*/
+			font-size:15px;
+			color:red;
+			border-radius:5px;
+			text-align:left;
+			box-shadow:0 8px 16px 0 rgba(0,0,0,0.30),0 6px 20px 0 rgba(0,0,0,0.50);
+			margin-top:10px;
+		}
+		.reg6
+		{
+		border:2px solid white;
+			background-image:url('img/119.jpg');
+			height:1000px;
+			margin-bottom:7px;
+			
+		}
+		.r5
+		{
+			color:rgb(255,255,255);
+			margin-left:23%;
+			margin-right:25%;
+		}
+		.reg5
+		{
+			padding:8px 89px;
+			/*border:1px solid black;*/
+			font-size:15px;
+			color:red;
+			border-radius:5px;
+			text-align:left;
+			box-shadow:0 8px 16px 0 rgba(0,0,0,0.30),0 6px 20px 0 rgba(0,0,0,0.50);
+			margin-top:10px;
+		}
+		
+		.text_form3
+		{
+			padding:8px 0px;
+			/*border:1px solid black;*/
+			font-size:15px;
+			color:red;
+			border-radius:5px;
+			text-align:left;
+			box-shadow:0 8px 16px 0 rgba(0,0,0,0.30),0 6px 20px 0 rgba(0,0,0,0.50);
+			margin-top:10px;
+		}
+		
+		.b1
+		{
+			padding:10px 60px;
+			border-radius:6px;
+			background-color:black;
+			font-size:15px;
+			color:white;
+			cursor:pointer;
+			float:right-block;
+			box-shadow:0 8px 16px 0 rgba(0,0,0,0.30),0 6px 20px 0 rgba(0,0,0,0.50);
+			margin-top:20px;
+			margin-left:200px;
+		}
+		.b1:hover
+		{
+			box-shadow:0 8px 16px 0 rgba(0,0,0,0.30),0 6px 20px 0 rgba(0,0,0,0.50);
+			background-color:red;
+			color:white;
+			font-size:20px;
+		}

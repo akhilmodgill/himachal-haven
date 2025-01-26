@@ -1,0 +1,79 @@
+.q
+{
+    background-image:url("zzz/hp.jpg");
+	height:350px;
+}
+.dff
+{
+	padding-left:10%;
+    padding-top:3%;
+	border:1px solid red;
+}
+.a
+{
+padding-left:6%;
+padding-top:2%;
+float:left:
+border:5px solid red;
+height:100px ;
+width:300px;
+}
+.L
+{
+padding-left:8%;
+float:left;
+height:100px ;
+width:300px;
+}
+.b
+{
+word-spacing:10px;
+padding-left:63%;
+padding-top:12%;
+font-size:28px;
+}
+.b li
+{
+list-style-type:none;
+display:inline;
+text-align:center;
+}
+.b li:hover
+{
+color:red;
+}
+.c
+{
+padding-left:10%;
+}
+.d
+{
+text-align:center;
+width:33%;
+float:left;
+padding-top:2.5%;
+color:brown;
+}
+.d:hover
+{
+color:red;
+}
+.e
+{
+padding-left:10%;
+padding-top:3%;
+}
+.e:hover
+{
+color:red;
+}
+.s
+{
+	background-image:url("img/qq.jpg");
+	height:370px;
+}
+.t
+{
+	background-image:url("img/gg.jpg");
+	height:355px;
+}

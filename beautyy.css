@@ -1,0 +1,44 @@
+.bty
+{
+font:size=30%;
+padding-left:3%;
+padding-top:0.3%;
+color:white;
+background:-webkit-linear-gradient( top left,skyblue,blue,green);
+height:70px;
+margin-top:20px;
+margin-bottom:20px;
+}
+.b2
+{
+font:size=30%;
+padding-left:3%;
+padding-top:0.3%;
+color:red;
+background:-webkit-linear-gradient( top left,green,skyblue,blue);
+height:70px;
+margin-top:20px;
+margin-bottom:20px;
+}
+.qqww
+{
+text-align:center;
+width:44%;
+float:left;
+padding-top:2.5%;
+color:brown;
+}
+.aass
+{
+	padding-left:5%;
+	background-color:black;
+	color:white;
+	margin-top:20px;
+margin-bottom:20px;
+}
+
+.beauty1
+{
+	background-image:url("img/kk.jpg");
+	height:370px;
+}

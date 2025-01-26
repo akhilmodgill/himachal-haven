@@ -1,0 +1,53 @@
+.sh5
+{
+	width:24%;
+float:left;
+padding-top:2.5%;
+
+}
+.sh1
+{
+font:size=30%;
+padding-left:3%;
+padding-top:0.3%;
+color:white;
+background:-webkit-linear-gradient( top left,skyblue,blue,green);
+height:70px;
+margin-top:20px;
+margin-bottom:20px;
+margin-bottom:40px;
+}
+
+.sh2
+{
+	height:370px;
+	margin-left:2%;
+}
+.sh3
+{
+	border:2px solid balck;
+width:45%;
+float:left;
+padding-top:2.5%;
+}
+.sh4
+{
+	padding-left:7%;
+}
+.sh5:hover
+{
+color:red;
+}
+.sh6
+{
+border:2px solid balck;
+width:45%;
+float:left;
+padding-top:2.5%;
+}
+.sh7
+{
+		height:370px;
+	margin-left:2%;
+}	
+}

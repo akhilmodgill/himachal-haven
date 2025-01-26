@@ -1,0 +1,44 @@
+.ad1
+{
+font:size=30%;
+padding-left:3%;
+padding-top:0.3%;
+color:white;
+background:-webkit-linear-gradient( top left,skyblue,blue,green);
+height:70px;
+margin-top:20px;
+margin-bottom:20px;
+}
+.ad2
+{
+font:size=30%;
+padding-left:3%;
+padding-top:0.3%;
+color:red;
+background:-webkit-linear-gradient( top left,green,skyblue,blue);
+height:70px;
+margin-top:20px;
+margin-bottom:20px;
+
+}
+.ad3
+{
+	padding-left:5%;
+	background-color:black;
+	color:white;
+	margin-top:20px;
+margin-bottom:20px;
+}
+.ad4
+{
+text-align:center;
+width:50%;
+float:left;
+padding-top:2.5%;
+color:brown;
+}
+.ad5
+{
+	padding-left:5%;
+	background:-webkit-linear-gradient( top left,green,skyblue,blue);
+	}

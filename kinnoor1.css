@@ -1,0 +1,39 @@
+
+.kinour1
+{
+font:size=30%;
+padding-left:3%;
+padding-top:0.3%;
+color:white;
+background:-webkit-linear-gradient( top left,skyblue,blue,green);
+height:70px;
+margin:20px;
+margin-bottom:40px;
+}
+
+.kinour2
+{
+	height:370px;
+	margin-left:3%;
+}
+.kinour3
+{
+width:35%;
+float:left;
+padding-top:2.5%;
+}
+.kinour4
+{
+	padding-left:7%;
+}
+.kinour5
+{
+	width:24%;
+float:left;
+padding-top:2.5%;
+}
+.kinour5:hover
+{
+color:red;
+}
+

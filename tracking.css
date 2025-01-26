@@ -1,0 +1,30 @@
+.track
+{
+font:size=30%;
+padding-left:3%;
+padding-top:0.3%;
+color:white;
+background:-webkit-linear-gradient( top left,skyblue,blue,green);
+height:70px;
+margin-top:20px;
+margin-bottom:20px;
+}
+.tracka
+{
+font:size=30%;
+padding-left:3%;
+padding-top:0.3%;
+color:red;
+background:-webkit-linear-gradient( top left,green,skyblue,blue);
+height:70px;
+margin-top:20px;
+margin-bottom:20px;
+}
+.aass
+{
+	padding-left:5%;
+	background-color:black;
+	color:white;
+	margin-top:20px;
+margin-bottom:20px;
+}

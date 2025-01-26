@@ -1,0 +1,27 @@
+.g1
+		{
+        font:size=30%;
+        width:100%;
+        float:left;
+		padding-top:1%;
+        color:white;
+        background:-webkit-linear-gradient( top left,blue,purple,orange);
+        height:65px;
+		margin:20px;
+        margin-bottom:40px;
+		}
+		.g2
+		{
+        width:20%;
+        float:left;
+        padding-top:0.8%; 
+		}
+		.gallary_main
+		{
+			height:100%;
+			width:100%;
+		}
+		.gallary
+		{
+			padding-bottom:10%;
+		}
